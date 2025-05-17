@@ -15,12 +15,11 @@ window.onload = function() {
     var orgSeg = [[],[],[],[]];
 
    var pathOptions = [
-  { color: '#191970', opacity: 1, angle: -50, position: 'TL', x: -400, y: -600, scale: 1 },
-  { color: '#483D8B', opacity: 0.5, angle: 0, position: 'BR', x: 100, y: 270, scale: 1.3 },
-  { color: '#0F52BA', opacity: 0.47, angle: 0, position: 'BR', x: 400, y: 280, scale: 1.3 },
-  { color: '#002147', opacity: 0.61, angle: 180, position: 'TR', x: 300, y: -55, scale: 1 }
-];
-
+  { color: '#0B0C2A', opacity: 1, angle: -50, position: 'TL', x: -400, y: -600, scale: 1 },     // Very dark navy
+  { color: '#1A1A40', opacity: 0.5, angle: 0, position: 'BR', x: 100, y: 270, scale: 1.3 },      // Dark indigo/navy
+  { color: '#112244', opacity: 0.47, angle: 0, position: 'BR', x: 400, y: 280, scale: 1.3 },     // Muted deep navy
+  { color: '#001F3F', opacity: 0.61, angle: 180, position: 'TR', x: 300, y: -55, scale: 1 }      // Classic navy
+  ];
 
     var moveSize = 10;
     var moveSpeed = 500;
