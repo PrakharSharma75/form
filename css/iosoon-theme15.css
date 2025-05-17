@@ -15,8 +15,11 @@
     1 - General Styles
 ------------------------------------*/
 .form-body {
-    background-color: #1E90FF;
+    background: linear-gradient(135deg, #0B0C2A, #1C1C2E);
 }
+
+
+
 
 .form-body.gradient-bg {
     background-repeat: repeat-x;
@@ -290,13 +293,13 @@
 .form-content .btn.btn-primary {
     color: #fff;
     width: 240px;
-    background-color: #EDAB41;
+    background-color: #CE5D0D;
     -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.16);
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.16);
 }
 
 .form-content .btn.btn-primary:hover, .form-content .btn.btn-primary:focus {
-    background-color: #e4a33c;
+    background-color:#CE4D0D;;
     -webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
     box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
 }
